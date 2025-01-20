@@ -1,6 +1,33 @@
-SUMMARY OF THIS PROJECT
 
-This project is a complex backend project that is built with nodejs, expressjs, mongodb, mongoose, jwt, bcrypt, and many more. This project is a complete backend project that has all the features that a backend project should have. The project is a complete video hosting website similar to youtube with all the features like login, signup, upload video, like, dislike, comment, reply, subscribe, unsubscribe, and many more.
+# Video Hosting Platform - Backend
 
-Project uses all standard practices like JWT, bcrypt, access tokens, refresh Tokens and many more.
+This project is the backend for a comprehensive video hosting platform, similar to YouTube. It's built using a robust stack:
+
+* *Node.js:* JavaScript runtime environment 
+* *Express.js:* Web framework for Node.js
+* *MongoDB:* NoSQL database
+* *Mongoose:* Object Data Modeling (ODM) library for MongoDB
+* *JWT:* JSON Web Tokens for secure authentication
+* *Bcrypt:* For secure password hashing
+* *And more...*
+
+*Key Features:*
+
+* *User Authentication:*
+    * Secure user registration and login
+    * Robust password hashing and salting with Bcrypt
+    * JWT-based authentication with access and refresh tokens
+* *Video Management:*
+    * Video uploads, processing, and storage (integration with cloud storage like AWS S3 recommended)
+    * Video metadata management (title, description, tags)
+    * Video playback controls (play, pause, seek)
+* *User Interactions:*
+    * Liking/disliking videos
+    * Commenting and replying to comments
+    * Video subscriptions and unsubscriptions
+* *Search & Discovery:*
+    * Video search functionality
+    * Recommended videos based on user history and preferences
+* *And many more...*
+
 
